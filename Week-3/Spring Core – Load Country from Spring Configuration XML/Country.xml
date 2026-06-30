@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans">
+
+    <bean id="country" class="Country">
+        <constructor-arg value="IN"/>
+        <constructor-arg value="India"/>
+    </bean>
+
+</beans>
